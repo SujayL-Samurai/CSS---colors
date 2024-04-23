@@ -1,0 +1,42 @@
+colors= chaging colors using color names, rgb values, hex codes, hsl, and hwb values
+
+
+<!DOCTYPE html>
+<html>
+	
+<link rel="stylesheet" href="style.css">
+	<body>
+		<head>
+			<h1>This is my website</h1>
+
+		<p id="p1" class="odd">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo fugiat error labore culpa saepe a. Earum exercitationem aspernatur, consequuntur, non animi beatae fugiat ex esse explicabo asperiores hic tempore fugit.</p>
+		<p id="p2" class="even">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo fugiat error labore culpa saepe a. Earum exercitationem aspernatur, consequuntur, non animi beatae fugiat ex esse explicabo asperiores hic tempore fugit.</p>
+		<p id="p3" class="odd">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo fugiat error labore culpa saepe a. Earum exercitationem aspernatur, consequuntur, non animi beatae fugiat ex esse explicabo asperiores hic tempore fugit.</p>
+		<p id="p4" class="odd">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo fugiat error labore culpa saepe a. Earum exercitationem aspernatur, consequuntur, non animi beatae fugiat ex esse explicabo asperiores hic tempore fugit.</p>
+
+		</head>
+	</body>
+</html>
+
+style.css
+
+body{
+    background-color: lightgray;
+}
+h1{
+    color: rgb(0, 11, 4);
+}
+#p1{
+    color: #f7f713;
+}
+#p2{
+    color: hsl(180, 100%, 50%);
+}
+#p3{
+    color: hwb(208 94% 0%);
+}
+#p4{
+    color: blue;
+}
+
+
